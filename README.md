@@ -92,4 +92,4 @@ This project helps in understanding:
 
 ## 👩‍💻 Author
 
-Made by Luna
+Made by G Deepika
