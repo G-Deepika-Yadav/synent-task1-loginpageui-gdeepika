@@ -1,0 +1,74 @@
+/* Full page center */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+/* Login box */
+.login-container{
+    background: white;
+    padding: 40px;
+    width: 320px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+
+    text-align: center;
+}
+
+/* Heading */
+.login-container h2{
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Input fields */
+.login-container input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    font-size: 14px;
+}
+
+/* Forgot password */
+.forgot-password{
+    text-align: right;
+    font-size: 13px;
+    color: #007bff;
+
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Login button */
+.login-container button{
+    width: 100%;
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #007bff;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.login-container button:hover{
+    background: #0056b3;
+}
